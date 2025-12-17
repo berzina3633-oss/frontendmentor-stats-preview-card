@@ -2,6 +2,9 @@
 
 ![Design preview for the Stats preview card component coding challenge](preview.jpg)
 
+## Live Demo
+👉 https://berzina3633-oss.github.io/frontendmentor-stats-preview-card/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
