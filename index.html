@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <article class="stats-container">
+    <picture class="picture-container">
+      <source srcset="images/image-header-desktop.jpg" media="(min-width: 600px)">
+      <img src="images/image-header-mobile.jpg" alt="three woman sit at the working table">
+    </picture>
+    <div class="text-container">
+      <h2 class="title">
+        Get <span class="highlight">insights</span> that<wbr> help your business grow.
+      </h2>
+      <p class="main-text">
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+      </p>
+      <!-- šis varēja būt dl -->
+      <div class="stats">
+        <div class="stats__item">
+          <!-- šis varēja būt dt -->
+          <p class="stats__number">10k+</p>
+          <!-- šis varēja būt dd -->
+          <p class="stats__lable uppercase">companies</p>
+        </div>
+        <div class="stats__item">
+          <p class="stats__number">314</p>
+          <p class="stats__lable uppercase">templates</p>
+        </div>
+        <div class="stats__item">
+          <p class="stats__number">12M+</p>
+          <p class="stats__lable uppercase">queries</p>
+        </div>
+      </div>
+    </div>  
+  </article>
+</body>
+</html>
